@@ -153,7 +153,7 @@ Vault will automatically revoke this credential after 768 hours (see
 `lease_duration` in the output), but perhaps we want to revoke it early. Once
 the secret is revoked, the access keys are no longer valid.
 
-To revoke the secret, use `vault revoke` with the lease ID that was outputted
+To revoke the secret, use `vault lease revoke` with the lease ID that was outputted
 from `vault read` when you ran it:
 
 ```text
